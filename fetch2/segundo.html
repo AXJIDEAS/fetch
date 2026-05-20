@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch 2</title>
+    <link rel="stylesheet" href="style_segundo.css">
+</head>
+<body>
+    <div class="container">
+        <form id="formularPost">
+            <div class="group">
+                <label for="titulo">Titulo</label>
+                <input type="text" id="titulo" required placeholder="Escribe un titulo...">
+            </div>
+            <div class="group">
+                <label for="contenido">Contenido</label>
+                <textarea id="contenido" required placeholder="Escribe el contenido..."></textarea>
+            </div>
+        </form>
+        <button type="submit" form="formularPost">Enviar post</button>
+        <div id="mensajeEstado"></div>
+
+        <script src="./segundo.js"></script>
+    </div>
+</body>
+</html>
